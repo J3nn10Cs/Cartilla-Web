@@ -1,0 +1,13 @@
+:root{
+    --plomo: #2E2E2E;
+    --azuloscuro: #0B2545;
+    --azulgris: #8DA9C4;
+    --blanco: #fff;
+    --fuente: 'Poppins',sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
