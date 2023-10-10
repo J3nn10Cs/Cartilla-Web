@@ -1,13 +1,39 @@
 :root{
-    --plomo: #2E2E2E;
-    --azuloscuro: #0B2545;
-    --azulgris: #8DA9C4;
-    --blanco: #fff;
-    --fuente: 'Poppins',sans-serif;
+    --bg-color: #3E4551;
 }
 
-*{
-    margin: 0;
-    padding: 0;
+.form-box{
+    width: 370px;
+    height: 455px;
+    position: relative;
+    margin: 6% auto;
+    background: var(--bg-color);
+    padding: 5px; 
+    border-radius: 10px;
 }
 
+.button-box{
+    width: 240px;
+    margin: 30px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px --bg-color;
+    border-radius: 30px;
+}
+
+.toggle-btn{
+    padding: 10px 22px;
+    cursor: pointer;
+    background: transparent;
+    border: 0px;
+    outline: none;
+    position: relative;
+}
+
+#elegir{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 120px;
+    height: 100%;
+    background: ;
+}
