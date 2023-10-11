@@ -18,17 +18,17 @@
 .header-content{
     display: flex;
 }
-.haede-txt{
+.header-txt{
     width: 50%;
 }
 
-.haede-txt h1{
+.header-txt h1{
     font-size: 70px;
     line-height: 85px;
-    color: #fbfcff;
+    color: #eb7141;
     margin-bottom: 20px;
 }
-.haede-txt span{
+.header-txt span{
     font-size: 90px;
     color: ffb40b;
 }
