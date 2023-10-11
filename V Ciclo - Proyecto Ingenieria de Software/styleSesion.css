@@ -39,7 +39,7 @@ body{
     border-radius: 100%;
 }
 
-.login-card-logo,.login-card-header,.login-card-footer{
+.login-card-logo,.login-card-header{
     text-align: center;
 }
 
@@ -58,9 +58,6 @@ body{
     font-size: calc(1rem * .8);
     opacity: .8;
 }
-
-
-
 /*responsive*/
 @media (max-width:768px) {
     body{
@@ -72,43 +69,3 @@ body{
         padding: 2rem;
     }
 }
-/* .form-box{
-    width: 370px;
-    height: 455px;
-    position: relative;
-    margin: 6% auto;
-    background: var(--bg-color);
-    padding: 5px; 
-    border-radius: 10px;
-}
-
-.button-box{
-    width: 240px;
-    margin: 30px auto;
-    position: relative;
-    box-shadow: 0 0 20px 9px --bg-color;
-    border-radius: 30px;
-}
-
-.toggle-btn{
-    padding: 10px 22px;
-    cursor: pointer;
-    background: transparent;
-    border: 0px;
-    outline: none;
-    position: relative;
-}
-
-#elegir{
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 120px;
-    height: 100%;
-    background: transparent;
-    text-align: center;
-    text-decoration: double;
-    text-decoration-color: blueviolet;
-    style: var(--bg-color);
-
-} */
