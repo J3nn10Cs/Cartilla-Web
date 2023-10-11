@@ -18,7 +18,17 @@ overlay.onclick = function () {
 }
 
 searchbtn.onclick = function () {
-    slidebar.classList.toggle("active");
-    overlay.classList.toggle("active");
-    isMenuActive = !isMenuActive;
+     slidebar.classList.toggle("active");
+     overlay.classList.toggle("active");
+     isMenuActive = !isMenuActive;
 }
+
+function showPopup() {
+    const popup = document.getElementById('popup');
+    popup.style.display = 'block';
+  }
+  
+function closePopup() {
+    const popup = document.getElementById('popup');
+    popup.style.display = 'none';
+  }
