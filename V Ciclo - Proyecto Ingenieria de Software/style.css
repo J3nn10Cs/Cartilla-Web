@@ -13,6 +13,11 @@ body {
     font-family: "Work Sans";
 }
 
+.logo i{
+  vertical-align: middle;
+  margin-right: 8px;
+  color: #ff9f0d;
+}
 /*------------------------------
             Sliderbar
 ------------------------------*/
