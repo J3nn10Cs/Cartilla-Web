@@ -20,12 +20,12 @@
 </head>
 
 <body>
-<!---->
+    <!---->
     <!--Contenido del menú -->
     <header class="header">
         <div class="header-content container">
             <div class="header-txt">
-                <h1>Opciones <br> <span>de menu</span></h1>
+                <h1>Modificar <br> <span>platillos y bebidas </span></h1>
                 <p>
                     En un mundo donde los sueos se entrelazan con la realidad, emprendí un viaje que desafió los
                     límites de lo conocido. Atravesé valles de ensueño, donde las flores danzaban al compás del viento y
@@ -40,9 +40,16 @@
 
     </header>
 
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <p>Contenido del popup aquí.</p>
+        </div>
+    </div>
+
     <section class="menu-pl container">
 
-        <h2>Esto ya es el menu</h2>
+        <h2>Modificar platos entrantes</h2>
 
         <div class="general-content">
 
@@ -54,7 +61,7 @@
                 </p>
                 <div class="prices">
                     <span>s/15 so</span>
-                    <a href="#" class="btn-2">Comprar</a>
+                    <a href="#" class="btn-2" onclick="showPopup()">Editar</a>
                 </div>
             </div>
 
@@ -66,7 +73,7 @@
                 </p>
                 <div class="prices">
                     <span>s/10 so</span>
-                    <a href="#" class="btn-2">Comprar</a>
+                    <a href="#" class="btn-2">Editar</a>
                 </div>
             </div>
 
@@ -78,7 +85,7 @@
                 </p>
                 <div class="prices">
                     <span>s/20 so</span>
-                    <a href="#" class="btn-2">Comprar</a>
+                    <a href="#" class="btn-2">Editar</a>
                 </div>
             </div>
 
@@ -90,10 +97,11 @@
                 </p>
                 <div class="prices">
                     <span>s/20 so</span>
-                    <a href="#" class="btn-2">Comprar</a>
+                    <a href="#" class="btn-2">Editar</a>
                 </div>
 
-            </div><div class="general-txt">
+            </div>
+            <div class="general-txt">
                 <img src="img/Platillo3.jpg" alt="">
                 <h3>Platillo 3</h3>
                 <p>
@@ -101,12 +109,13 @@
                 </p>
                 <div class="prices">
                     <span>s/20 so</span>
-                    <a href="#" class="btn-2">Comprar</a>
+                    <a href="#" class="btn-2">Editar</a>
                 </div>
             </div>
 
         </div>
     </section>
+
     <div class="slider-barra"><!--todo lo que contiene la barra lateral-->
         <div class="contenido_logo"><!--Logo-->
             <div class="logo">
@@ -150,7 +159,7 @@
                 </a>
                 <span class="tooltip">Platillo</span>
             </li>
-                        <li>
+            <li>
                 <a href="#">
                     <i class='bx bxs-trophy'></i>
                     <span class="links-name">Chat</span>
@@ -188,7 +197,9 @@
     <script
         src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
 
+    <script>src = "services/dishsservices.js"</script>
     <script src="main.js"></script>
+
 
 </body>
 
