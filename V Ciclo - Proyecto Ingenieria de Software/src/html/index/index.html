@@ -13,10 +13,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Poppins:wght@500&display=swap"
         rel="stylesheet">
     <title>J3nn1</title>
-    <link rel="shortcut icon" href="Img/Icono Jennifer.jpeg" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/src/imgs/Icono Jennifer.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="/src/css/index-style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="/src/css/style3.css">
 </head>
 
 <body>
@@ -24,10 +24,11 @@
         <div class="contenido_logo"><!--Logo-->
             <div class="logo">
                 <i class="fa-solid fa-utensils"></i>
-                <div class="nombre-logo">Bienvenido </div>
+                <div class="nombre-logo"> Bienvenido </div>
             </div>
             <i class='bx bx-menu' id="btn" style="color: #ff9f0d"></i>
-        </div>            
+        </div>
+
         <ul class="nav_lista"><!--Todo lo que contiene la lista-->
             <li>
                 <i class='bx bx-search-alt-2' style="color: #ff9f0d"></i>
@@ -35,7 +36,7 @@
                 <span class="tooltip">Buscar</span>
             </li>
             <li>
-                <a href="index.html">
+                <a href="./index.html">
                     <i class="fa-solid fa-house"></i>
                     <span class="links-name">Inicio</span><!--Nombre-->
                 </a>
@@ -56,14 +57,14 @@
                 <span class="tooltip">Ordenes</span>
             </li>
             <li>
-                <a href="#">
+                <a href="/src/html/platillos/platillo.html">
                     <i class='bx bxs-book'></i>
                     <span class="links-name">Platillo</span>
                 </a>
                 <span class="tooltip">Platillo</span>
             </li>
             <li>
-                <a href="#">
+                <a href="../chat/chat.html">
                     <i class='bx bxs-trophy'></i>
                     <span class="links-name">Chat</span>
                 </a>
@@ -80,103 +81,18 @@
         </ul>
     </div>
     <div class="overlay"></div>
-    <!---->
-    <!--Contenido del menú -->
-    <header class="header">
-        <div class="header-content container">
-            <div class="header-txt">
-                <h1>Modificar <br> <span>platillos y bebidas </span></h1>
-                <p>
-                    En un mundo donde los sueos se entrelazan con la realidad, emprendí un viaje que desafió los
-                    límites de lo conocido. Atravesé valles de ensueño, donde las flores danzaban al compás del viento y
-                    los árboles murmuraban secretos ancestrales. Las montañas, majestuosas guardianas de la tierra, se
-                    alzaban imponentes en el horizonte, invitándome a ascender hacia lo desconocido. Siguiendo el rastro
-                    de estrellas fugaces, llegué a un lago de aguas cristalinas que reflejaba la luz de la luna como un
-                    manto plateado. En este viaje, descubrí que la verdadera magia reside en la capacidad de creer en lo
-                    imposible y encontrar belleza en cada rincón del universo.
-                </p>
+
+    <div class="login-card-container">
+        <div class="login-card">
+            <div class="login-card-logo">
+                <img src="/src/imgs/Perfil.jpeg" alt="logo">
             </div>
-        </div>
-
-    </header>
-
-    <div id="popup" class="popup">
-        <div class="popup-content">
-            <span class="close" onclick="closePopup()">&times;</span>
-            <p>Contenido del popup aquí.</p>
+            <div class="login-card-header">
+                <h1>Bienvenido</h1>
+            </div>
         </div>
     </div>
-
-    <section class="menu-pl container">
-
-        <h2>Modificar platos entrantes</h2>
-
-        <div class="general-content">
-
-            <div class="general-txt">
-                <img src="img/Platillo1.jpg" alt="">
-                <h3>Platillo 1</h3>
-                <p>
-                    Descipción del platillo o cualquier wbd
-                </p>
-                <div class="prices">
-                    <span>s/15 so</span>
-                    <a href="#" class="btn-2" onclick="showPopup()">Editar</a>
-                </div>
-            </div>
-
-            <div class="general-txt">
-                <img src="img/Platillo2.jpg" alt="">
-                <h3>Platillo 2</h3>
-                <p>
-                    Descipción del platillo o cualquier wbd x2
-                </p>
-                <div class="prices">
-                    <span>s/10 so</span>
-                    <a href="#" class="btn-2">Editar</a>
-                </div>
-            </div>
-
-            <div class="general-txt">
-                <img src="img/Platillo3.jpg" alt="">
-                <h3>Platillo 3</h3>
-                <p>
-                    Descipción del platillo o cualquier wbd x3
-                </p>
-                <div class="prices">
-                    <span>s/20 so</span>
-                    <a href="#" class="btn-2">Editar</a>
-                </div>
-            </div>
-
-            <div class="general-txt">
-                <img src="img/Platillo3.jpg" alt="">
-                <h3>Platillo 3</h3>
-                <p>
-                    Descipción del platillo o cualquier wbd x3
-                </p>
-                <div class="prices">
-                    <span>s/20 so</span>
-                    <a href="#" class="btn-2">Editar</a>
-                </div>
-
-            </div>
-            <div class="general-txt">
-                <img src="img/Platillo3.jpg" alt="">
-                <h3>Platillo 3</h3>
-                <p>
-                    Descipción del platillo o cualquier wbd x3
-                </p>
-                <div class="prices">
-                    <span>s/20 so</span>
-                    <a href="#" class="btn-2">Editar</a>
-                </div>
-            </div>
-
-        </div>
-    </section> 
-    <!-- Esto ni idea de que es XD -->
-
+    <!-- <div class="overlay"></div> -->
     <!-- jQuery CDN - Slim version (=without AJAX) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -192,11 +108,7 @@
     <!-- jQuery Custom Scroller CDN -->
     <script
         src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
-
-    <script>src = "services/dishsservices.js"</script>
-    <script src="main.js"></script>
-
-
+    <script src="/src/services/index.js"></script>
 </body>
 
 </html>
